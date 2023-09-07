@@ -1,0 +1,10 @@
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
