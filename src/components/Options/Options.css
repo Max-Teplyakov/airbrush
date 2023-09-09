@@ -19,19 +19,16 @@
 }
 
 .options__container-text {
-  text-align: center;
   width: 400px;
   height: 400px;
   font-weight: 500;
   font-size: 20px;
 }
 
-.options__container-text:hover {
-  color: #000;
-}
-
 .options__title {
   margin-top: 100px;
+  color: #fbd784;
+  text-align: center;
 }
 
 .options__logo {

@@ -1,0 +1,32 @@
+.plan {
+  color: #fff;
+}
+
+.plan__title {
+  margin: 0;
+  text-align: center;
+}
+
+.plan__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.plan__card {
+  width: 500px;
+}
+
+.plan__card-title {
+  margin: 0;
+}
+
+.plan__card-description {
+  margin: 0;
+}
+
+.plan__card-check {
+  width: 128px;
+  height: 128px;
+  background-image: url("../../images/check.svg");
+}

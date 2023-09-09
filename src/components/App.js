@@ -5,6 +5,7 @@ import Price from "./Price/Price";
 import Slider from "./Slider/Slider";
 import Application from "./Application/Application";
 import Footer from "./Footer/Footer";
+import Plan from "./Plan/Plan";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Information />
       <Options />
       <Price />
+      <Plan />
       <Application />
       <Footer />
     </div>
