@@ -7,13 +7,13 @@
 }
 
 .header__contain {
-  margin: 0 10px;
+  margin: 0 auto;
   max-width: 1440px;
   height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .logo {

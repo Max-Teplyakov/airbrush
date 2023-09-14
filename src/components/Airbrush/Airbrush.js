@@ -1,5 +1,11 @@
+import Price from "../Price/Price";
+
 function Airbrush() {
-  return <section className="airbrush"></section>;
+  return (
+    <main className="airbrush">
+      <Price />
+    </main>
+  );
 }
 
 export default Airbrush;

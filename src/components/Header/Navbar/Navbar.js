@@ -3,6 +3,11 @@ function Navbar() {
     <nav className="navbar">
       <ul className="navbar-nav">
         <li className="nav-item">
+          <a className="nav-link active" href="/">
+            Главная
+          </a>
+        </li>
+        <li className="nav-item">
           <a className="nav-link active" href="/airbrush">
             Аэрография
           </a>
