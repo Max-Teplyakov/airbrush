@@ -1,13 +1,15 @@
 .header {
   width: 100%;
-  background: #202020;
+  background: #292929;
+  position: fixed;
+  flex-shrink: 0;
+  z-index: 1000;
 }
 
 .header__contain {
-  margin: 0 auto;
-  padding: 0 10px 0;
-  max-width: 1420px;
-  height: 85px;
+  margin: 0 10px;
+  max-width: 1440px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;

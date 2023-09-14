@@ -1,0 +1,27 @@
+.contacts {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.contacts__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contacts__title {
+  font-size: 18px;
+  color: #aeaeae;
+}
+
+.contacts__number {
+  font-size: 35px;
+  color: #fbd784;
+}
+
+.contacts__email {
+  color: #aeaeae;
+}

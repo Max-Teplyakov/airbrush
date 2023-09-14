@@ -1,17 +1,20 @@
 .price {
-  margin-bottom: 100px;
+  margin: 0 auto;
+  max-width: 1024px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
   color: #fff;
 }
 
 .price__title {
-  margin: 0 auto;
   max-width: 1024px;
   margin-top: 100px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 20px;
   margin-bottom: 50px;
-  font-size: 30px;
+  font-size: 45px;
   color: #fbd784;
   border-bottom: 2px solid #9f9fa0;
 }
@@ -49,8 +52,8 @@
 }
 
 .price__btn {
-  margin: 50px 600px;
-  width: 330px;
+  margin: 100px auto 0;
+  width: 350px;
   height: 60px;
   border-radius: 10px;
   border: none;

@@ -1,13 +1,16 @@
 import whatsap from "../../images/whatsapp.png";
 import telegramm from "../../images/telegram.png";
 import phone from "../../images/phone.png";
+import logo from "../../images/logo.jpg";
 
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-top"></div>
-      <div className="footer-bottom">
+      <div className="footer__block">
+        <img className="footer__logo" src={logo} alt="логотип сайта" />
         <p className="footer__year">&#169;2023 Все права защищены.</p>
+      </div>
+      <div className="footer__block">
         <ul className="footer__contacts">
           <li className="footer__whatsapp">
             <a
@@ -16,7 +19,6 @@ function Footer() {
               target="_blanck"
             >
               <img src={phone} className="header__contacts-icon" />
-              8(987)111-11-11
             </a>
           </li>
           <li className="footer__phone">

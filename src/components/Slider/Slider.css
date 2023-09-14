@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
-    url("../../images/3.jpg");
+    url("../../images/home-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -22,6 +22,7 @@
   margin: 0;
   margin-bottom: 50px;
   max-width: 650px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -52,14 +53,20 @@
     font-size: 45px;
   }
 
+  .slider__title {
+    font-size: 70px;
+  }
+
   .slider__image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-      url("../../images/3.jpg");
+    height: 1290px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+      url("../../images/home-img.jpg");
   }
 
   .slider__subtitle {
     margin-bottom: 255px;
-    font-size: 31px;
+    max-width: 500px;
+    font-size: 32px;
   }
 
   .slider__btn {
@@ -67,9 +74,5 @@
     width: 200px;
     height: 40px;
     font-size: 20px;
-  }
-
-  .slider__image {
-    height: 1150px;
   }
 }

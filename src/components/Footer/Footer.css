@@ -1,8 +1,11 @@
-.footer-bottom {
+.footer {
+  margin: 0 10px;
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  flex-shrink: 0;
 }
 
 .footer__contacts {
@@ -20,8 +23,8 @@
   color: #fff;
 }
 
-.footer__links-whatsapp {
-  width: 155px;
+/* .footer__links-whatsapp {
+  width: 170px;
   display: flex;
   align-items: center;
-}
+} */

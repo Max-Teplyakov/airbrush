@@ -1,0 +1,25 @@
+.review {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.review__title {
+  margin: 0;
+  margin-bottom: 50px;
+  color: #fbd784;
+  font-size: 45px;
+}
+
+.review__subtitle {
+  margin: 0;
+  color: #aeaeae;
+}

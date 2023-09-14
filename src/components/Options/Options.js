@@ -9,13 +9,14 @@ import options8 from "../../images/options8.jpg";
 function Options() {
   return (
     <section className="options">
-      <div className="options__container options__container-top">
+      <div className="options__container">
         <div className="options__container-text">
           <h3 className="options__title">Аэрография на Автомобиле</h3>
           <p className="options__subtitle">
-            Аэрография на кузове авто в нашей студии – отличный замысел, который
-            придаст вашей машине неповторимый стиль и снизит вероятность её
-            угона, сделав её менее привлекательной целью для злоумышленников.
+            Превратим ваш автомобиль в настоящий шедевр с помощью
+            профессиональной аэрографии. Нанесем любое изображение или рисунок
+            на капот, двери, бампер, диски. Стиль, тематика, детали - решать
+            вам!
           </p>
         </div>
         <img src={options1} className="options__logo" alt="" />
@@ -25,9 +26,9 @@ function Options() {
         <div className="options__container-text">
           <h3 className="options__title">Аэрография на Мотоцикле</h3>
           <p className="options__subtitle">
-            Байк отражает внутренний мир своего владельца. Покрыть его
-            индивидуальной аэрографией – прекрасный способ выделиться среди
-            других байкеров на дорогах.
+            Украсим ваш мотоцикл ярким индивидуальным дизайном. Разработаем и
+            нанесем логотипы, тематические рисунки, орнаменты на бак, раму,
+            шлем. Сделаем ваш мотоцикл запоминающимся!
           </p>
         </div>
       </div>
@@ -65,7 +66,7 @@ function Options() {
         </div>
         <img src={options7} className="options__logo" alt="" />
       </div>
-      <div className="options__container options__container-bottom">
+      <div className="options__container">
         <img src={options8} className="options__logo" alt="" />
         <div className="options__container-text">
           <h3 className="options__title">Роспись Фасадов Зданий</h3>

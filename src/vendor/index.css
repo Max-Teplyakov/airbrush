@@ -1,4 +1,31 @@
-@import url(./fonts/fonts.css);
 @import url(./normalize.css);
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap";
 
-@import url(../blocks/page/page.css);
+.page {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  background: linear-gradient(to right, #414345, #232526);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@import url(../components/Header/Header.css);
+@import url(../components/Main/Main.css);
+@import url(../components/Airbrush/Airbrush.css);
+@import url(../components/AboutUs/AboutUs.css);
+@import url(../components/Contacts/Contacts.css);
+@import url(../components/Header/Navbar/Navbar.css);
+@import url(../components/Slider/Slider.css);
+@import url(../components/Information/Information.css);
+@import url(../components/Options/Options.css);
+@import url(../components/Price/Price.css);
+@import url(../components/WhyUs/WhyUs.css);
+@import url(../components/Reviews/Reviews.css);
+@import url(../components/Application/Application.css);
+@import url(../components/Footer/Footer.css);
+@import url(../components/Plan/Plan.css);
+/* * {
+  outline: 1px solid red;
+} */

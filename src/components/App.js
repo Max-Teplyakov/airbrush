@@ -1,22 +1,24 @@
+import { Routes, Route } from "react-router-dom";
+
 import Header from "./Header/Header";
-import Information from "./Information/Information";
-import Options from "./Options/Options";
-import Price from "./Price/Price";
-import Slider from "./Slider/Slider";
-import Application from "./Application/Application";
 import Footer from "./Footer/Footer";
-import Plan from "./Plan/Plan";
+import Main from "./Main/Main";
+import Airbrush from "./Airbrush/Airbrush";
+import AboutUs from "./AboutUs/AboutUs";
+import Reviews from "./Reviews/Reviews";
+import Contacts from "./Contacts/Contacts";
 
 function App() {
   return (
     <div className="page">
       <Header />
-      <Slider />
-      <Information />
-      <Options />
-      <Price />
-      <Plan />
-      <Application />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/airbrush" element={<Airbrush />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/reviews" element={<Reviews />} />
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
       <Footer />
     </div>
   );
