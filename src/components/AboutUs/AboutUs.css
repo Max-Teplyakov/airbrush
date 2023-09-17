@@ -1,5 +1,5 @@
 .about-us {
-  margin: 0 auto;
+  margin: 100px auto 50px;
   max-width: 1440px;
   display: flex;
   justify-content: center;
@@ -10,8 +10,8 @@
 }
 
 .about-us__img {
-  width: 800px;
-  height: 800px;
+  width: 700px;
+  height: 700px;
   box-shadow: 6px 6px 23px #9f9fa0;
   border-radius: 45px;
 }

@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-
 import icon from "../../images/tellegram.svg";
 import logo from "../../images/logo.jpg";
+import phone from "../../images/phoneheader.png";
 import Navbar from "./Navbar/Navbar.js";
+
 function Header() {
   return (
     <header className="header">
@@ -12,6 +13,15 @@ function Header() {
         </Link>
         <Navbar />
         <ul className="header__contacts">
+          <li className="header__contacts-link">
+            <a
+              className="header__contacts-phone"
+              href="tel:+79871578318"
+              target="_blanck"
+            >
+              <img src={phone} className="header__contacts-icon" />
+            </a>
+          </li>
           <li className="header__contacts-link">
             <a
               className="header__contacts-telega"

@@ -1,0 +1,14 @@
+.carousel {
+  margin: 0 auto 100px;
+  max-width: 1024px;
+  height: 700px;
+}
+
+.carousel-inner {
+  border-radius: 25px;
+  opacity: 0.7;
+}
+
+.d-block {
+  height: 700px;
+}

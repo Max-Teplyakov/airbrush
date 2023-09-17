@@ -1,6 +1,6 @@
 import Information from "../Information/Information";
 import Options from "../Options/Options";
-import Price from "../Price/Price";
+import Price from "../Airbrush/Car/PriceCar/PriceCar";
 import Slider from "../Slider/Slider";
 import Application from "../Application/Application";
 import Plan from "../Plan/Plan";
@@ -13,7 +13,6 @@ function Main() {
       <Slider />
       <Information />
       <Options />
-      {/* <Price /> */}
       <Plan />
       <WhyUs />
       <Reviews />

@@ -51,7 +51,10 @@ function Price() {
           <td>От 30.000 руб.</td>
         </tr>
       </table>
-      <button className="price__btn">Оставить Заявку</button>
+      {/* <button className="price__btn">Оставить Заявку</button> */}
+      <a href="#car-id" className="price__btn">
+        Оставить Заявку
+      </a>
     </section>
   );
 }

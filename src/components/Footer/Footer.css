@@ -23,6 +23,11 @@
 .footer__whatsapp {
 }
 
+.footer__logo {
+  width: 115px;
+  height: 35px;
+}
+
 .footer__links {
   display: flex;
   text-decoration: none;

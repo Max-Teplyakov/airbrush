@@ -1,7 +1,7 @@
 .price {
   margin: 0 auto;
   max-width: 1024px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -53,22 +53,23 @@
 
 .price__btn {
   margin: 100px auto 0;
-  width: 350px;
-  height: 60px;
+  width: 245px;
+  height: 35px;
   border-radius: 10px;
   border: none;
   background-color: rgb(1 149 195);
   color: #fff;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 23px;
   letter-spacing: 1px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   .price__btn {
     width: 215px;
     height: 40px;
     font-size: 20px;
   }
-}
+} */

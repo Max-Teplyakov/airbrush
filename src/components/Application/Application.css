@@ -1,11 +1,12 @@
 .application {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   padding-top: 160px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../../images/form-place.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 20px;
 }
 
 .application-form {

@@ -1,4 +1,5 @@
 .header {
+  padding: 0 10px;
   width: 100%;
   background: #292929;
   position: fixed;
@@ -19,8 +20,14 @@
 .logo {
   margin-top: 15px;
   margin-bottom: 15px;
-  width: 135px;
-  height: 50px;
+  width: 115px;
+  height: 35px;
+}
+
+.header__contacts {
+  margin: 0;
+  display: flex;
+  gap: 10px;
 }
 
 .header__contacts-link {
@@ -32,8 +39,5 @@
   height: 35px;
 }
 
-@media screen and (max-width: 1440px) {
-  .header__contain {
-    font-size: 20px;
-  }
+@media screen and (max-width: 760px) {
 }

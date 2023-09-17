@@ -1,0 +1,36 @@
+.advantages {
+  margin: 0 auto 100px;
+  max-width: 1024px;
+  height: 700px;
+  background-color: #dfdfdf;
+  color: #545151;
+  border-radius: 25px;
+}
+
+.advantages__title {
+  padding: 60px 0;
+  color: #000;
+  font-size: 45px;
+  text-align: center;
+}
+
+.advantages__container {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 25px;
+  row-gap: 50px;
+}
+
+.advantages__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages__card-description {
+  padding-top: 30px;
+  max-width: 300px;
+  text-align: center;
+}

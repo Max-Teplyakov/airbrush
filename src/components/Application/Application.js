@@ -1,6 +1,6 @@
-function Application() {
+function Application({ id }) {
   return (
-    <section className="application">
+    <section className="application" id={id}>
       <form className="application-form">
         <h2 className="application-form__title">
           Оставьте заявку прямо сейчас

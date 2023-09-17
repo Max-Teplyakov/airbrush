@@ -18,12 +18,12 @@ function Footer() {
             href="tel:+79871578318"
             target="_blanck"
           >
-            <img src={phone} className="header__contacts-icon" />
+            <img src={whatsap} className="header__contacts-icon" />
           </a>
         </li>
         <li className="footer__phone">
           <a className="footer__links" href="tel:+79871578318" target="_blanck">
-            <img src={whatsap} className="header__contacts-icon" />
+            <img src={phone} className="header__contacts-icon" />
           </a>
         </li>
         <li className="footer__tellegram">

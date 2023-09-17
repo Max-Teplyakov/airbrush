@@ -21,7 +21,7 @@ function Options() {
         </div>
         <img src={options1} className="options__logo" alt="" />
       </div>
-      <div className="options__container">
+      <div className="options__container options__container_revers">
         <img src={options2} className="options__logo" alt="" />
         <div className="options__container-text">
           <h3 className="options__title">Аэрография на Мотоцикле</h3>
@@ -44,7 +44,7 @@ function Options() {
         </div>
         <img src={options5} className="options__logo" alt="" />
       </div>
-      <div className="options__container">
+      <div className="options__container options__container_revers">
         <img src={options6} className="options__logo" alt="" />
         <div className="options__container-text">
           <h3 className="options__title">Аэрография на Велотранспорте</h3>
@@ -66,7 +66,7 @@ function Options() {
         </div>
         <img src={options7} className="options__logo" alt="" />
       </div>
-      <div className="options__container">
+      <div className="options__container options__container_revers">
         <img src={options8} className="options__logo" alt="" />
         <div className="options__container-text">
           <h3 className="options__title">Роспись Фасадов Зданий</h3>

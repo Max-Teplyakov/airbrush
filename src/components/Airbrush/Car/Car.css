@@ -1,0 +1,29 @@
+.car {
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.car-description {
+  margin: 60px auto 0;
+  width: 100%;
+  height: 800px;
+  background-color: #dfdfdf;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../../../images/Airbrash/car2.jpg");
+  background-size: cover;
+}
+
+.car-description__title {
+  margin: 0 auto;
+  padding: 150px 0 50px;
+  width: 500px;
+  font-size: 45px;
+  color: #fbd784;
+}
+
+.car-description__subtitle {
+  margin: 0 auto;
+  width: 600px;
+  color: #ffffff;
+}

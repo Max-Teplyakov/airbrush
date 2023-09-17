@@ -1,10 +1,66 @@
 .navbar-nav {
   display: flex;
+  flex-direction: row;
   list-style-type: none;
   gap: 30px;
 }
 
 .nav-link {
+  padding-top: 10px;
   text-decoration: none;
+  font-size: 15px;
   color: #fff;
+}
+/* Кнопка выпадающего списка */
+.dropbtn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #292929;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #292929;
+  border-radius: 10px;
+  color: #fffefe;
+  min-width: 160px;
+  z-index: 1;
+  border: 1px solid #494848;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content .nav-link {
+  color: rgb(255 255 255);
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content .nav-link:hover {
+  background-color: #878787;
+  color: rgb(0, 0, 0);
+}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .dropbtn {
+  cursor: pointer;
 }
