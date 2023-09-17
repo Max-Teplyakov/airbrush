@@ -12,6 +12,7 @@
 }
 
 .plan__container {
+  padding: 0 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -21,8 +22,8 @@
 
 .plan__card {
   margin: 0 auto;
-  width: 450px;
-  height: 400px;
+  max-width: 450px;
+  max-height: 400px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -76,4 +77,58 @@
 
 .img6 {
   background-image: url("../../images/plan/plan6.jpg");
+}
+
+@media screen and (max-width: 1175px) {
+  .plan__card {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 40px;
+  }
+
+  .plan__card-img {
+    height: 150px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+  }
+
+  .plan__card-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .plan__card-description {
+    padding: 0 10px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .plan__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .plan__card-img {
+    height: 145px;
+  }
+
+  .plan__card-title {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .plan__title {
+    font-size: 20px;
+  }
+  .plan__container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
 }
