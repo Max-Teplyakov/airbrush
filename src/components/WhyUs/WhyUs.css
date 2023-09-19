@@ -48,3 +48,70 @@
   color: #1f1d18;
   font-size: 21px;
 }
+
+@media screen and (max-width: 806px) {
+  .why-us__card-img {
+    width: 50px;
+    height: 50px;
+  }
+  .why-us__span {
+    font-size: 18px;
+  }
+
+  .why-us__card-description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .why-us {
+    height: 1270px;
+  }
+  .why-us__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .why-us {
+    height: 1370px;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .why-us {
+    height: 1570px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .why-us {
+    width: 350px;
+    height: 1700px;
+  }
+
+  .why-us__title {
+    font-size: 20px;
+  }
+
+  .why-us__container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    row-gap: 25px;
+  }
+
+  .why-us__card-description {
+    font-size: 12px;
+  }
+
+  .why-us__span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .why-us {
+    width: 300px;
+  }
+}
