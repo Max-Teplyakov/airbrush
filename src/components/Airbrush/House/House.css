@@ -16,14 +16,59 @@
 
 .house-description__title {
   margin: 0 auto;
-  padding: 100px 0 50px;
-  width: 500px;
+  padding: 150px 0 50px;
+  max-width: 500px;
   font-size: 45px;
   color: #fbd784;
 }
 
 .house-description__subtitle {
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .house-description {
+    height: 670px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .house-description {
+    height: 500px;
+  }
+
+  .house-description__title {
+    padding-top: 50px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .house-description {
+    height: 280px;
+  }
+  .house-description__title {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  .house-description__subtitle {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .house-description {
+    height: 220px;
+  }
+  .house-description__title {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .house-description__subtitle {
+    font-size: 11px;
+  }
 }

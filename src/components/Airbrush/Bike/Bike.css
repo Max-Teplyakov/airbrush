@@ -7,7 +7,7 @@
   margin: 60px auto 0;
   text-align: center;
   width: 100%;
-  height: 900px;
+  height: 800px;
   background-color: #dfdfdf;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
     url("../../../images/Airbrash/bike2.jpg");
@@ -16,14 +16,59 @@
 
 .bike-description__title {
   margin: 0 auto;
-  padding: 100px 0 50px;
-  width: 500px;
+  padding: 150px 0 50px;
+  max-width: 500px;
   font-size: 45px;
   color: #fbd784;
 }
 
 .bike-description__subtitle {
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .bike-description {
+    height: 670px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bike-description {
+    height: 500px;
+  }
+
+  .bike-description__title {
+    padding-top: 50px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .bike-description {
+    height: 280px;
+  }
+  .bike-description__title {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  .bike-description__subtitle {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bike-description {
+    height: 220px;
+  }
+  .bike-description__title {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .bike-description__subtitle {
+    font-size: 11px;
+  }
 }

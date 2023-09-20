@@ -24,7 +24,7 @@
 
 .application-form__block {
   margin-bottom: 70px;
-  width: 650px;
+  width: 640px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@
 }
 
 .application-form__container {
-  width: 650px;
+  width: 640px;
   margin-bottom: 10px;
   display: flex;
   gap: 10px;
@@ -82,10 +82,132 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 768px) {
+  .application-form__title {
+    font-size: 30px;
+  }
+
+  .application-form__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .application-form__block {
+    width: 550px;
+  }
+  .application-form__line {
+    width: 260px;
+  }
+
+  .application-form__container {
+    width: 550px;
+  }
+
+  .application-form__text {
+    width: 550px;
+  }
+
   .application-form__btn {
-    width: 200px;
+    margin-bottom: 160px;
+    width: 240px;
     height: 40px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .application-form__title {
+    font-size: 25px;
+  }
+
+  .application-form__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .application-form__block {
+    width: 400px;
+  }
+  .application-form__line {
+    width: 190px;
+  }
+
+  .application-form__input {
+    width: 195px;
+  }
+
+  .application-form__container {
+    width: 400px;
+  }
+
+  .application-form__text {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .application {
+    padding-top: 70px;
+  }
+
+  .application-form__title {
+    margin-bottom: 50px;
+    font-size: 22px;
+  }
+
+  .application-form__block {
+    margin-bottom: 50px;
+    width: 340px;
+  }
+  .application-form__line {
+    width: 155px;
+  }
+
+  .application-form__input {
+    width: 165px;
+  }
+
+  .application-form__container {
+    width: 340px;
+  }
+
+  .application-form__text {
+    width: 340px;
+  }
+
+  .application-form__btn {
+    margin-bottom: 50px;
+    width: 200px;
+    height: 35px;
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .application-form__title {
+    font-size: 18px;
+  }
+
+  .application-form__block {
+    width: 310px;
+  }
+  .application-form__line {
+    width: 145px;
+  }
+
+  .application-form__input {
+    width: 150px;
+  }
+
+  .application-form__container {
+    width: 310px;
+  }
+
+  .application-form__text {
+    width: 310px;
+  }
+
+  .application-form__btn {
+    font-size: 18px;
   }
 }
