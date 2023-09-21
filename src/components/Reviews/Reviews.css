@@ -15,6 +15,7 @@
 }
 
 .review__container {
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -29,6 +30,23 @@
 }
 
 .review__img {
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.review__btn {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 315px;
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(1 149 195);
+  color: #fff;
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
 }

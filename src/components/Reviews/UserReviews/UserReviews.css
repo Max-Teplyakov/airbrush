@@ -1,34 +1,26 @@
-.review {
-  margin: 0 auto;
+.user-reviews {
   max-width: 1440px;
-  color: #fff;
-  flex-shrink: 0;
-  flex-grow: 1;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 25px;
+  row-gap: 50px;
 }
 
-.review__title {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  text-align: center;
-  color: #fbd784;
-  font-size: 45px;
-}
-
-.review__container {
+.user-reviews__container {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
-.review__block {
-  max-width: 600px;
+.user-review__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 10px #fbd784;
+  object-fit: cover;
 }
 
-.review__subtitle {
-  margin: 0;
-  color: #aeaeae;
-}
-
-.review__img {
-  width: 700px;
-  height: 700px;
+.user-review__name {
+  color: #fbd784;
 }

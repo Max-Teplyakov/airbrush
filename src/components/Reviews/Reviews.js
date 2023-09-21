@@ -12,6 +12,10 @@ function Reviews() {
             amet, consectetur adiplorem ipsum dolor sit amet, consectetur
             adiplorem ipsum dolor sit amet, consectetur adiplorem ipsum dolor
             sit amet, consectetur adiplorem ipsum dolor sit amet, consectetur
+            adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor
+            sit amet, consectetur adiplorem ipsum dolor sit amet, consectetur
+            adiplorem ipsum dolor sit amet, consectetur adiplorem ipsum dolor
+            sit amet, consectetur adiplorem ipsum dolor sit amet, consectetur
             adip
           </p>
           <btn className="review__btn">Написать отзыв</btn>
