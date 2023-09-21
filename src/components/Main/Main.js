@@ -15,7 +15,7 @@ function Main() {
       <Options />
       <Plan />
       <WhyUs />
-      <Reviews />
+      {/* <Reviews /> */}
       <Application />
     </main>
   );
