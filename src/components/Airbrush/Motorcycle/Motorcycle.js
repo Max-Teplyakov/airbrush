@@ -4,13 +4,14 @@ import { motorcycleData } from "../../../utils/data";
 import PriceMotorcycle from "../Motorcycle/PriceMotorcycle/PriceMotorcycle";
 import Carousel from "../../Carousel/Carousel";
 import { carouselMotorcycle } from "../../../utils/data";
+import AboutAirbrushing from "../../AboutAirbrushing/AboutAirbrushing";
 
 function Motorcycle() {
   return (
     <main className="motorcycle">
       <section className="motorcycle-description">
         <h2 className="motorcycle-description__title">
-          АЭРОГРАФИЯ НА МОТОЦИКЛЕ
+        Аэрография на мотоциклах в Самаре
         </h2>
         <p className="motorcycle-description__subtitle">
           Аэрография на мотоциклах в Москве от профессионалов. Мы работаем с
@@ -18,11 +19,12 @@ function Motorcycle() {
           многими другими, независимо от модели и года выпуска.
         </p>
       </section>
-      <PriceMotorcycle />
+      <AboutAirbrushing />
       <Carousel carousel={carouselMotorcycle} />
       <Advantages dataText={motorcycleData} />
+      <PriceMotorcycle />
       <Application />
-    </main>
+</main>
   );
 }
 

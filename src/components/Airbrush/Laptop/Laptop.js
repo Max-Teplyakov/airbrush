@@ -4,6 +4,7 @@ import Advantages from "../../Advantages/Advantages";
 import PriceLaptop from "../Laptop/PriceLaptop/PriceLaptop";
 import Carousel from "../../Carousel/Carousel";
 import { carouselLaptop } from "../../../utils/data";
+import AboutAirbrushing from "../../AboutAirbrushing/AboutAirbrushing";
 
 function Laptop() {
   return (
@@ -16,9 +17,10 @@ function Laptop() {
           многими другими, независимо от модели и года выпуска.
         </p>
       </section>
-      <PriceLaptop />
+      <AboutAirbrushing />
       <Carousel carousel={carouselLaptop} />
       <Advantages dataText={laptopData} />
+      <PriceLaptop />
       <Application />
     </main>
   );

@@ -1,0 +1,33 @@
+.about-airbrushing__title {
+  max-width: 1024px;
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-size: 45px;
+  color: #fbd784;
+  border-bottom: 2px solid #9f9fa0;
+}
+
+.about-airbrushing__subtitle {
+  margin: 0 auto;
+  max-width: 1024px;
+  margin-bottom: 100px;
+  font-size: 19px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  .about-airbrushing__title {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .about-airbrushing__subtitle {
+    margin-bottom: 40px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

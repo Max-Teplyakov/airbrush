@@ -4,6 +4,7 @@ import Advantages from "../../Advantages/Advantages";
 import { carText } from "../../../utils/data";
 import Carousel from "../../Carousel/Carousel";
 import { carouselCar } from "../../../utils/data";
+import AboutAirbrushing from "../../AboutAirbrushing/AboutAirbrushing";
 
 function Car() {
   return (
@@ -18,9 +19,10 @@ function Car() {
           подхода к работе.
         </p>
       </section>
-      <Price />
+      <AboutAirbrushing />
       <Carousel carousel={carouselCar} />
       <Advantages dataText={carText} />
+      <Price />
       <Application id="car-id" />
     </main>
   );

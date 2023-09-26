@@ -4,6 +4,7 @@ import { bikeData } from "../../../utils/data";
 import PriceBike from "./PriceBike/PriceBike";
 import Carousel from "../../Carousel/Carousel";
 import { carouselBike } from "../../../utils/data";
+import AboutAirbrushing from "../../AboutAirbrushing/AboutAirbrushing";
 
 function Bike() {
   return (
@@ -16,6 +17,7 @@ function Bike() {
           многими другими, независимо от модели и года выпуска.
         </p>
       </section>
+      <AboutAirbrushing />
       <PriceBike />
       <Carousel carousel={carouselBike} />
       <Advantages dataText={bikeData} />

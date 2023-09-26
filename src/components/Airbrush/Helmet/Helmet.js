@@ -4,6 +4,7 @@ import Advantages from "../../Advantages/Advantages";
 import PriceHelmet from "./PriceHelmet/PriceHelmet";
 import Carousel from "../../Carousel/Carousel";
 import { carouselHelmet } from "../../../utils/data";
+import AboutAirbrushing from "../../AboutAirbrushing/AboutAirbrushing";
 
 function Helmet() {
   return (
@@ -16,9 +17,10 @@ function Helmet() {
           многими другими, независимо от модели и года выпуска.
         </p>
       </section>
-      <PriceHelmet />
+      <AboutAirbrushing />
       <Carousel carousel={carouselHelmet} />
       <Advantages dataText={helmetData} />
+      <PriceHelmet />
       <Application />
     </main>
   );

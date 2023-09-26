@@ -8,26 +8,6 @@
   color: #fff;
 }
 
-.price__title {
-  max-width: 1024px;
-  margin-top: 100px;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  margin-bottom: 50px;
-  font-size: 45px;
-  color: #fbd784;
-  border-bottom: 2px solid #9f9fa0;
-}
-
-.price__subtitle {
-  margin: 0 auto;
-  max-width: 1024px;
-  margin-bottom: 100px;
-  font-size: 19px;
-  line-height: 35px;
-}
-
 .price__table {
   width: 1024px;
   margin: 0 auto;
@@ -84,25 +64,11 @@
   .price__table {
     width: 560px;
   }
-  .price__title {
-    margin-top: 0;
-  }
 }
 
 @media screen and (max-width: 600px) {
   .price {
     margin-bottom: 50px;
-  }
-  .price__title {
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    font-size: 25px;
-  }
-
-  .price__subtitle {
-    margin-bottom: 40px;
-    font-size: 13px;
-    line-height: 20px;
   }
 
   .price__table {

@@ -4,6 +4,7 @@ import Advantages from "../../Advantages/Advantages";
 import PriceHouse from "./PriceHouse/PriceHouse";
 import Carousel from "../../Carousel/Carousel";
 import { carouselHouse } from "../../../utils/data";
+import AboutAirbrushing from "../../AboutAirbrushing/AboutAirbrushing";
 
 function House() {
   return (
@@ -16,9 +17,10 @@ function House() {
           многими другими, независимо от модели и года выпуска.
         </p>
       </section>
-      <PriceHouse />
+      <AboutAirbrushing />
       <Carousel carousel={carouselHouse} />
       <Advantages dataText={houseData} />
+      <PriceHouse />
       <Application />
     </main>
   );
