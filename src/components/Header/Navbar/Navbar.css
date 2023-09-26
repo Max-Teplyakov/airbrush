@@ -11,6 +11,18 @@
   font-size: 15px;
   color: #fff;
 }
+
+.nav-link:hover {
+  color: #9d9d9d;
+}
+
+.nav-link:active {
+  color: #000000;
+}
+
+.nav-link:focus {
+  color: #9d9d9d;
+}
 /* Кнопка выпадающего списка */
 .dropbtn {
   padding-top: 10px;

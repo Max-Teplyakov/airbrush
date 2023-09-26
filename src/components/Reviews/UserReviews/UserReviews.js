@@ -55,7 +55,7 @@ function UserReviews() {
           <p className="user-review__name">Оливер Твист</p>
         </div>
       </div>
-      <div className="user-reviews__container">
+      {/* <div className="user-reviews__container">
         <img className="user-review__img" src={reviewsImg} alt="" />
         <div className="user-review__block">
           <p className="user-review__text">
@@ -80,7 +80,7 @@ function UserReviews() {
           </p>
           <p className="user-review__name">Оливер Твист</p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

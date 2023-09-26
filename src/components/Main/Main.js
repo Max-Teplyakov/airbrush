@@ -5,7 +5,7 @@ import Slider from "../Slider/Slider";
 import Application from "../Application/Application";
 import Plan from "../Plan/Plan";
 import WhyUs from "../WhyUs/WhyUs";
-import Reviews from "../Reviews/Reviews";
+import UserReviews from "../Reviews/UserReviews/UserReviews";
 
 function Main() {
   return (
@@ -15,7 +15,7 @@ function Main() {
       <Options />
       <Plan />
       <WhyUs />
-      {/* <Reviews /> */}
+      <UserReviews />
       <Application />
     </main>
   );

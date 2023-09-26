@@ -67,7 +67,7 @@
 }
 
 .application-form__input {
-  width: 325px;
+  width: 315px;
   height: 30px;
   padding-left: 10px;
   border: none;
@@ -97,6 +97,10 @@
   }
   .application-form__line {
     width: 260px;
+  }
+
+  .application-form__input {
+    width: 270px;
   }
 
   .application-form__container {

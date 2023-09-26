@@ -1,9 +1,10 @@
 .user-reviews {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 100px auto;
+  padding: 0 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   column-gap: 25px;
   row-gap: 50px;
 }
@@ -23,4 +24,30 @@
 
 .user-review__name {
   color: #fbd784;
+}
+
+.user-review__text {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .user-review__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .user-reviews {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .user-reviews__container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .user-review__block {
+    max-width: 420px;
+  }
 }

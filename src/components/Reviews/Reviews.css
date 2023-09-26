@@ -15,7 +15,7 @@
 }
 
 .review__container {
-  margin-bottom: 100px;
+  padding: 0 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -39,7 +39,6 @@
   display: block;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 315px;
   width: 350px;
   height: 50px;
   border-radius: 10px;

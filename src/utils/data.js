@@ -4,7 +4,7 @@ import icon3 from "../images/Advantages/car3.png";
 import icon4 from "../images/Advantages/car4.png";
 
 import car1 from "../images/carousel/car1.jpeg";
-import car2 from "../images/carousel/car2.jpg";
+import car2 from "../images/carousel/car2.jpeg";
 import car3 from "../images/carousel/car3.jpeg";
 
 import helmet1 from "../images/carousel/helmet1.jpeg";

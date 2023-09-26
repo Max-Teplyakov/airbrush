@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import icon from "../../images/tellegram.svg";
-import logo from "../../images/logo.jpg";
+import logo from "../../images/logo.png";
 import phone from "../../images/phoneheader.png";
 import Navbar from "./Navbar/Navbar.js";
 

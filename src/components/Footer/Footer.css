@@ -11,22 +11,31 @@
   flex-shrink: 0;
 }
 
-.footer__block {
-  width: 400px;
-}
-
 .footer__contacts {
+  padding: 0;
+  margin: 0;
   display: flex;
+  flex-direction: column;
   gap: 10px;
   list-style-type: none;
 }
 
-.footer__whatsapp {
+.footer__social {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
 }
 
 .footer__logo {
-  width: 115px;
-  height: 35px;
+  width: 150px;
+  height: 50px;
+}
+
+.footer__social-link {
+  gap: 10px;
 }
 
 .footer__links {
@@ -35,8 +44,26 @@
   color: #fff;
 }
 
-/* .footer__links-whatsapp {
-  width: 170px;
-  display: flex;
-  align-items: center;
-} */
+.footer__text {
+  text-align: center;
+  margin: 0;
+}
+
+.footer__social-text {
+  margin: 0;
+}
+
+.footer__social-text:hover {
+  color: #9d9d9d;
+}
+
+.footer__social-text:active {
+  color: #000000;
+}
+
+.footer__social-text:focus {
+  color: #9d9d9d;
+}
+.footer__contacts-icon {
+  padding-right: 10px;
+}
