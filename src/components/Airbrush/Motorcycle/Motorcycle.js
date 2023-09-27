@@ -11,7 +11,7 @@ function Motorcycle() {
     <main className="motorcycle">
       <section className="motorcycle-description">
         <h2 className="motorcycle-description__title">
-        Аэрография на мотоциклах в Самаре
+          Аэрография на мотоциклах в Самаре
         </h2>
         <p className="motorcycle-description__subtitle">
           Аэрография на мотоциклах в Москве от профессионалов. Мы работаем с
@@ -23,8 +23,8 @@ function Motorcycle() {
       <Carousel carousel={carouselMotorcycle} />
       <Advantages dataText={motorcycleData} />
       <PriceMotorcycle />
-      <Application />
-</main>
+      <Application id="motorcycle-id" />
+    </main>
   );
 }
 

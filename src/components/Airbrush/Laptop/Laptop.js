@@ -21,7 +21,7 @@ function Laptop() {
       <Carousel carousel={carouselLaptop} />
       <Advantages dataText={laptopData} />
       <PriceLaptop />
-      <Application />
+      <Application id="laptop-id" />
     </main>
   );
 }

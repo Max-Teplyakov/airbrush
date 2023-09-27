@@ -35,7 +35,7 @@
 }
 
 .slider__btn {
-  margin-bottom: 285px;
+  margin-bottom: 400px;
   width: 260px;
   height: 50px;
   font-size: 20px;
@@ -222,6 +222,12 @@
     width: 140px;
     height: 27px;
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slider__image {
+    height: 370px;
   }
 }
 

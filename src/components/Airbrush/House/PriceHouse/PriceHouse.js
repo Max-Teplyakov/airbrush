@@ -35,8 +35,7 @@ function PriceHouse() {
           <td>От 700.000 рублей</td>
         </tr>
       </table>
-      {/* <button className="price__btn">Оставить Заявку</button> */}
-      <a href="#car-id" className="price__btn">
+      <a href="#house-id" className="price__btn">
         Оставить Заявку
       </a>
     </section>

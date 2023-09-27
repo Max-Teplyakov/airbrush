@@ -1,10 +1,10 @@
-import options1 from "../../images/options1.jpg";
-import options2 from "../../images/options2.jpg";
-import options4 from "../../images/options4.jpg";
-import options5 from "../../images/options5.jpg";
-import options6 from "../../images/options6.jpg";
-import options7 from "../../images/options7.jpg";
-import options8 from "../../images/options8.jpg";
+import options1 from "../../images/options/options1.jpg";
+import options2 from "../../images/options/options2.jpg";
+import options4 from "../../images/options/options4.jpg";
+import options5 from "../../images/options/options5.jpg";
+import options6 from "../../images/options/options6.jpg";
+import options7 from "../../images/options/options7.jpg";
+import options8 from "../../images/options/options8.jpg";
 
 function Options() {
   return (

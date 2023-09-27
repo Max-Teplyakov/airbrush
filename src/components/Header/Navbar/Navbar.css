@@ -25,6 +25,7 @@
 }
 /* Кнопка выпадающего списка */
 .dropbtn {
+  padding: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   background: #292929;
@@ -75,4 +76,38 @@
 /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
 .dropdown:hover .dropbtn {
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    position: fixed;
+    top: 0;
+    right: -250%;
+    width: 290px;
+    height: 100%;
+    display: flex;
+    background-color: #202020;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+  }
+
+  .navbar-nav.visible {
+    right: 0;
+  }
+
+  .nav-link {
+    padding-top: 14px;
+    font-size: 12px;
+  }
+
+  .dropbtn {
+    font-size: 12px;
+  }
+
+  .navbar-nav {
+    gap: 10px;
+  }
 }

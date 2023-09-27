@@ -43,8 +43,7 @@ function PriceBike() {
           <td>От 12.000 рублей</td>
         </tr>
       </table>
-      {/* <button className="price__btn">Оставить Заявку</button> */}
-      <a href="#car-id" className="price__btn">
+      <a href="#bike-id" className="price__btn">
         Оставить Заявку
       </a>
     </section>

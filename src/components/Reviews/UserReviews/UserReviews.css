@@ -2,6 +2,20 @@
   max-width: 1440px;
   margin: 100px auto;
   padding: 0 10px;
+  text-align: center;
+}
+
+.user-review__title {
+  margin-bottom: 100px;
+  font-size: 45px;
+  color: #fbd784;
+}
+
+.user-reviews__title_active {
+  display: none;
+}
+
+.user-review__section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -27,6 +41,7 @@
 }
 
 .user-review__text {
+  text-align: start;
   color: #fff;
 }
 

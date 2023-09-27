@@ -21,7 +21,7 @@ function Helmet() {
       <Carousel carousel={carouselHelmet} />
       <Advantages dataText={helmetData} />
       <PriceHelmet />
-      <Application />
+      <Application id="helmet-id" />
     </main>
   );
 }

@@ -8,6 +8,25 @@
   color: #fff;
 }
 
+.price__title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid #9f9fa0;
+  color: #fbd784;
+}
+
+.price__subtitle {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  max-width: 1024px;
+  font-size: 19px;
+  line-height: 35px;
+  text-indent: 30px;
+}
+
 .price__table {
   width: 1024px;
   margin: 0 auto;

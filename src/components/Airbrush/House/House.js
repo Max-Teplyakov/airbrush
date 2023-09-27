@@ -21,7 +21,7 @@ function House() {
       <Carousel carousel={carouselHouse} />
       <Advantages dataText={houseData} />
       <PriceHouse />
-      <Application />
+      <Application id="house-id" />
     </main>
   );
 }

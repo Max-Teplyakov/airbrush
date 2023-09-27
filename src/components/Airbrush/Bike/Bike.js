@@ -18,10 +18,10 @@ function Bike() {
         </p>
       </section>
       <AboutAirbrushing />
-      <PriceBike />
       <Carousel carousel={carouselBike} />
       <Advantages dataText={bikeData} />
-      <Application />
+      <PriceBike />
+      <Application id="bike-id" />
     </main>
   );
 }

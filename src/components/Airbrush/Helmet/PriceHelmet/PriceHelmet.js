@@ -31,8 +31,7 @@ function PriceHelmet() {
           <td>От 8.000 рублей</td>
         </tr>
       </table>
-      {/* <button className="price__btn">Оставить Заявку</button> */}
-      <a href="#car-id" className="price__btn">
+      <a href="#helmet-id" className="price__btn">
         Оставить Заявку
       </a>
     </section>

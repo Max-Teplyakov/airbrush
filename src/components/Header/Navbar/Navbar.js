@@ -1,7 +1,7 @@
-function Navbar() {
+function Navbar({ isBurger }) {
   return (
     <nav className="navbar">
-      <ul className="navbar-nav">
+      <ul className={`navbar-nav ${isBurger ? "visible" : ""}`}>
         <li className="nav-item">
           <a className="nav-link active" href="/">
             Главная
