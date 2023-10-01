@@ -45,17 +45,6 @@
   border: none;
 }
 
-.overlay {
-  width: 267px;
-  left: -29px;
-  top: 0;
-  height: 100vh;
-  margin-left: -237px;
-  background-color: #000;
-  opacity: 0.3;
-  position: absolute;
-}
-
 @media screen and (max-width: 768px) {
   .header__contacts-icon {
     display: none;
@@ -124,8 +113,30 @@
   }
 
   .header__burger.visible {
-    margin-right: -5px;
+    margin-right: 5px;
     width: 25px;
     height: 20px;
+  }
+  .overlay {
+    width: 469px;
+    right: 290px;
+    top: 0;
+    height: 100vh;
+    margin-left: -237px;
+    background-color: #000;
+    opacity: 0.3;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__contain {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .overlay {
+    display: none;
   }
 }

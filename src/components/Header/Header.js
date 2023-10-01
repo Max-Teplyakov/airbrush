@@ -15,11 +15,11 @@ function Header() {
   return (
     <header className="header">
       <div className="header__contain">
-        <div className="overlay"></div>
         <Link className="header__logo-link" to="/">
           <img src={logo} className="logo" alt="logo" />
         </Link>
         <Navbar isBurger={isBurger} />
+
         <ul className="header__contacts">
           <li className="header__contacts-link">
             <a

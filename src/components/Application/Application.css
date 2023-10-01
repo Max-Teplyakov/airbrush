@@ -83,6 +83,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .application {
+    margin-bottom: 50px;
+  }
+
   .application-form__title {
     font-size: 30px;
   }
@@ -151,6 +155,7 @@
 
 @media screen and (max-width: 425px) {
   .application {
+    margin-bottom: 15px;
     padding-top: 70px;
   }
 

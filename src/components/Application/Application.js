@@ -10,7 +10,7 @@ function Application({ id }) {
   }, []);
 
   const sendEmailTelegram = (e) => {
-    setLoading("Отправляем...");
+    setLoading("...");
     e.preventDefault();
     const { name, phone, text } = values;
 
@@ -25,8 +25,17 @@ function Application({ id }) {
       })
       .catch((error) => {
         console.log(error);
+        setLoading("Ошибка");
       })
-      .finally(() => setLoading("Отправить"));
+      .finally(() => {
+        setTimeout(() => {
+          setLoading("Отправить");
+        }, "3000");
+        setLoading("Отправленно...");
+        e.target.name.value = "";
+        e.target.phone.value = "";
+        e.target.text.value = "";
+      });
   };
 
   return (

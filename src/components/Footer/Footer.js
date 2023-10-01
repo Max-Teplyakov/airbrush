@@ -1,12 +1,15 @@
 import whatsap from "../../images/whatsapp.png";
 import telegramm from "../../images/telegram.png";
 import logo from "../../images/logo.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer__block">
-        <img className="footer__logo" src={logo} alt="логотип сайта" />
+        <Link className="header__logo-link" to="/">
+          <img className="footer__logo" src={logo} alt="логотип сайта" />
+        </Link>
       </div>
       <ul className="footer__contacts">
         <li className="footer__phone">
@@ -17,16 +20,6 @@ function Footer() {
         </li>
       </ul>
       <ul className="footer__social">
-        <li className="footer__whatsapp">
-          <a
-            className="footer__links footer__links-whatsapp"
-            href="tel:+79871578318"
-            target="_blanck"
-          >
-            <img src={whatsap} className="footer__contacts-icon" />
-            <p className="footer__social-text">WhatsApp</p>
-          </a>
-        </li>
         <li className="footer__tellegram">
           <a
             className="footer__links"
@@ -35,6 +28,16 @@ function Footer() {
           >
             <img src={telegramm} className="footer__contacts-icon" />
             <p className="footer__social-text">Telegram</p>
+          </a>
+        </li>
+        <li className="footer__whatsapp">
+          <a
+            className="footer__links footer__links-whatsapp"
+            href="tel:+79871578318"
+            target="_blanck"
+          >
+            <img src={whatsap} className="footer__contacts-icon" />
+            <p className="footer__social-text">WhatsApp</p>
           </a>
         </li>
       </ul>

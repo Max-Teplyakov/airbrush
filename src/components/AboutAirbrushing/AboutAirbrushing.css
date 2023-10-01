@@ -23,6 +23,7 @@
 
 .about-airbrushing__subtitle {
   margin: 0 auto;
+  margin-bottom: 5px;
   max-width: 1024px;
   font-size: 19px;
   line-height: 35px;
@@ -31,7 +32,6 @@
 
 @media screen and (max-width: 600px) {
   .about-airbrushing__subtitle {
-    margin-bottom: 40px;
     font-size: 13px;
     line-height: 20px;
   }

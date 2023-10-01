@@ -25,6 +25,7 @@
 
 .user-reviews__container {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 
@@ -52,11 +53,6 @@
 }
 
 @media screen and (max-width: 890px) {
-  .user-reviews {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-
   .user-reviews__container {
     margin: 0 auto;
     max-width: 600px;
@@ -64,5 +60,29 @@
 
   .user-review__block {
     max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .user-review__img {
+    width: 100px;
+    height: 100px;
+    border: solid 7px #fbd784;
+  }
+
+  .user-review__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .user-review__section {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 20px;
+  }
+
+  .user-review__title {
+    margin-bottom: 50px;
   }
 }

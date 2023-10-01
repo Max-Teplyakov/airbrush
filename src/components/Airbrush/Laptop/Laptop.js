@@ -10,11 +10,11 @@ function Laptop() {
   return (
     <main className="laptop">
       <section className="laptop-description">
-        <h2 className="laptop-description__title">АЭРОГРАФИЯ НА НОУТБУКЕ</h2>
+        <h1 className="laptop-description__title">
+          РИСУНОК НА НОУТБУКЕ В САМАРЕ
+        </h1>
         <p className="laptop-description__subtitle">
-          Аэрография на мотоциклах в Москве от профессионалов. Мы работаем с
-          мотоциклами всех производителей: Honda, Kawasaki, Yamaha, Ducati и
-          многими другими, независимо от модели и года выпуска.
+          Закажите эксклюзивный дизайн для ноутбука в нашей студии
         </p>
       </section>
       <AboutAirbrushing />

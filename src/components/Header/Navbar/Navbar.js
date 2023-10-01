@@ -2,6 +2,7 @@ function Navbar({ isBurger }) {
   return (
     <nav className="navbar">
       <ul className={`navbar-nav ${isBurger ? "visible" : ""}`}>
+        <div className="overlay"></div>
         <li className="nav-item">
           <a className="nav-link active" href="/">
             Главная
@@ -26,8 +27,8 @@ function Navbar({ isBurger }) {
               <a className="nav-link active" href="/bike">
                 Велосипеды
               </a>
-              <a className="nav-link active" href="/house">
-                Здания
+              <a className="nav-link active" href="/wall">
+                Стены
               </a>
             </div>
           </div>

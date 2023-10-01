@@ -11,7 +11,7 @@ import Motorcycle from "./Airbrush/Motorcycle/Motorcycle";
 import Laptop from "./Airbrush/Laptop/Laptop";
 import Helmet from "./Airbrush/Helmet/Helmet";
 import Bike from "./Airbrush/Bike/Bike";
-import House from "./Airbrush/House/House";
+import Wall from "./Airbrush/Wall/Wall";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <Route path="/laptop" element={<Laptop />} />
         <Route path="/helmet" element={<Helmet />} />
         <Route path="/bike" element={<Bike />} />
-        <Route path="/house" element={<House />} />
+        <Route path="/wall" element={<Wall />} />
 
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/reviews" element={<Reviews />} />

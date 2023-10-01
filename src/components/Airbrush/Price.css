@@ -23,7 +23,7 @@
   padding-bottom: 50px;
   max-width: 1024px;
   font-size: 19px;
-  line-height: 35px;
+  line-height: 25px;
   text-indent: 30px;
 }
 
@@ -111,9 +111,19 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
+  .price__title {
+    font-size: 30px;
+  }
+
+  .price__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .price__table {
-    width: 280px;
+    width: 330px;
   }
 
   .price__table-header {
@@ -128,5 +138,11 @@
     width: 200px;
     height: 35px;
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .price__table {
+    width: 300px;
   }
 }

@@ -10,11 +10,11 @@ function Bike() {
   return (
     <main className="bike">
       <section className="bike-description">
-        <h2 className="bike-description__title">АЭРОГРАФИЯ НА ВЕЛОСИПЕДЕ</h2>
+        <h1 className="bike-description__title">
+          АЭРОГРАФИЯ НА ВЕЛОСИПЕДЕ В САМАРЕ
+        </h1>
         <p className="bike-description__subtitle">
-          Аэрография на мотоциклах в Москве от профессионалов. Мы работаем с
-          мотоциклами всех производителей: Honda, Kawasaki, Yamaha, Ducati и
-          многими другими, независимо от модели и года выпуска.
+          Сделаем ваш велосипед неповторимым
         </p>
       </section>
       <AboutAirbrushing />

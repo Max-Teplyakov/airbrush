@@ -88,17 +88,18 @@
 @media screen and (max-width: 425px) {
   .why-us {
     width: 350px;
-    height: 1700px;
+    height: 1420px;
   }
 
   .why-us__title {
+    padding-top: 30px;
     font-size: 20px;
   }
 
   .why-us__container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(9, 1fr);
-    row-gap: 25px;
+    row-gap: 0;
   }
 
   .why-us__card-description {

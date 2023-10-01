@@ -21,7 +21,7 @@
 @import url(../components/Airbrush/Laptop/Laptop.css);
 @import url(../components/Airbrush/Helmet/Helmet.css);
 @import url(../components/Airbrush/Bike/Bike.css);
-@import url(../components/Airbrush/House/House.css);
+@import url(../components/Airbrush/Wall/Wall.css);
 @import url(../components/AboutAirbrushing/AboutAirbrushing.css);
 
 @import url(../components/AboutUs/AboutUs.css);
@@ -37,6 +37,7 @@
 @import url(../components/Plan/Plan.css);
 @import url(../components/Carousel/Carousel.css);
 @import url(../components/Reviews/Popup/Popup.css);
+@import url(../components/Place/Place.css);
 /* * {
   outline: 1px solid red;
 } */

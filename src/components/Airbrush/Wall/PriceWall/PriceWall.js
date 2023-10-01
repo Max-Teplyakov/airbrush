@@ -1,7 +1,7 @@
 function PriceHouse() {
   return (
     <section className="price">
-      <h2 className="price__title">ЦЕНЫ НА АЭРОГРАФИЮ ЗДАНИЯ</h2>
+      <h2 className="price__title">ЦЕНЫ НА АЭРОГРАФИЮ СТЕН</h2>
       <p className="price__subtitle">
         Точно сказать, сколько стоит воплощение той или иной задумки, невозможно
         без детального обсуждения исходных данных. Стоимость процесса нанесения
@@ -35,7 +35,7 @@ function PriceHouse() {
           <td>От 700.000 рублей</td>
         </tr>
       </table>
-      <a href="#house-id" className="price__btn">
+      <a href="#wall-id" className="price__btn">
         Оставить Заявку
       </a>
     </section>

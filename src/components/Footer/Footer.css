@@ -40,6 +40,7 @@
 
 .footer__links {
   display: flex;
+  align-items: center;
   text-decoration: none;
   color: #fff;
 }
@@ -66,4 +67,49 @@
 }
 .footer__contacts-icon {
   padding-right: 10px;
+}
+
+@media screen and (max-width: 620px) {
+  .footer__contacts {
+    font-size: 12px;
+  }
+
+  .footer__social {
+    font-size: 12px;
+  }
+
+  .footer__contacts-icon {
+    width: 38px;
+    height: 28px;
+  }
+
+  .footer__logo {
+    width: 100px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "logo social"
+      "logo contacts";
+    gap: 0;
+  }
+
+  .footer__block {
+    grid-area: logo;
+  }
+
+  .footer__contacts {
+    grid-area: contacts;
+  }
+
+  .footer__social {
+    grid-area: social;
+    align-items: center;
+  }
 }

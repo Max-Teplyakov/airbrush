@@ -10,11 +10,14 @@ function Helmet() {
   return (
     <main className="helmet">
       <section className="helmet-description">
-        <h2 className="helmet-description__title">АЭРОГРАФИЯ НА ШЛЕМЕ</h2>
+        <h1 className="helmet-description__title">
+          АЭРОГРАФИЯ НА ШЛЕМЕ В САМАРЕ
+        </h1>
         <p className="helmet-description__subtitle">
-          Аэрография на мотоциклах в Москве от профессионалов. Мы работаем с
-          мотоциклами всех производителей: Honda, Kawasaki, Yamaha, Ducati и
-          многими другими, независимо от модели и года выпуска.
+          Аэрография позволяет создавать эксклюзивные рисунки на спортивных
+          шлемах - мотоциклетных, хоккейных, вратарских. Это отличный способ
+          подчеркнуть индивидуальность и превратить экипировку в произведение
+          искусства.
         </p>
       </section>
       <AboutAirbrushing />

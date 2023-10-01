@@ -87,7 +87,7 @@
 
   .options__container-text {
     width: 350px;
-    height: 260px;
+    height: 200px;
   }
 
   .options__container_revers {
@@ -105,11 +105,11 @@
 
 @media screen and (max-width: 425px) {
   .options__container {
-    width: 280px;
+    width: 380px;
   }
 
   .options__logo {
-    width: 280px;
+    width: 385px;
     height: 280px;
   }
 
@@ -124,5 +124,45 @@
     padding: 0 10px;
     width: 280px;
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .options__container {
+    width: 360px;
+  }
+
+  .options__logo {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .options__container {
+    width: 340px;
+  }
+
+  .options__logo {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .options__container {
+    width: 320px;
+  }
+
+  .options__logo {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .options__container {
+    width: 300px;
+  }
+
+  .options__logo {
+    width: 300px;
   }
 }

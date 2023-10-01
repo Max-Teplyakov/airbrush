@@ -45,6 +45,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .bike-description {
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .bike-description {
     height: 280px;

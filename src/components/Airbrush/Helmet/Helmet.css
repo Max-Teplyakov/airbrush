@@ -45,6 +45,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .helmet-description {
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .helmet-description {
     height: 280px;

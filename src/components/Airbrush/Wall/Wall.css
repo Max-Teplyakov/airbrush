@@ -1,9 +1,9 @@
-.house {
+.wall {
   flex-shrink: 0;
   flex-grow: 1;
 }
 
-.house-description {
+.wall-description {
   margin: 60px auto 0;
   width: 100%;
   height: 800px;
@@ -14,7 +14,7 @@
   background-size: cover;
 }
 
-.house-description__title {
+.wall-description__title {
   margin: 0 auto;
   padding: 150px 0 50px;
   max-width: 500px;
@@ -22,53 +22,59 @@
   color: #fbd784;
 }
 
-.house-description__subtitle {
+.wall-description__subtitle {
   margin: 0 auto;
   max-width: 600px;
   color: #ffffff;
 }
 
 @media screen and (max-width: 1024px) {
-  .house-description {
+  .wall-description {
     height: 670px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .house-description {
+  .wall-description {
     height: 500px;
   }
 
-  .house-description__title {
+  .wall-description__title {
     padding-top: 50px;
     font-size: 40px;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .wall-description {
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 425px) {
-  .house-description {
+  .wall-description {
     height: 280px;
   }
-  .house-description__title {
+  .wall-description__title {
     padding-top: 25px;
     padding-bottom: 20px;
     font-size: 30px;
   }
-  .house-description__subtitle {
+  .wall-description__subtitle {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .house-description {
+  .wall-description {
     height: 220px;
   }
-  .house-description__title {
+  .wall-description__title {
     padding-top: 15px;
     padding-bottom: 10px;
     font-size: 25px;
   }
-  .house-description__subtitle {
+  .wall-description__subtitle {
     font-size: 11px;
   }
 }

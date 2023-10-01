@@ -10,13 +10,12 @@ function Motorcycle() {
   return (
     <main className="motorcycle">
       <section className="motorcycle-description">
-        <h2 className="motorcycle-description__title">
-          Аэрография на мотоциклах в Самаре
-        </h2>
+        <h1 className="motorcycle-description__title">
+          АЭРОГРАФИЯ НА МОТОЦИКЛАХ В САМАРЕ
+        </h1>
         <p className="motorcycle-description__subtitle">
-          Аэрография на мотоциклах в Москве от профессионалов. Мы работаем с
-          мотоциклами всех производителей: Honda, Kawasaki, Yamaha, Ducati и
-          многими другими, независимо от модели и года выпуска.
+          Придайте своему мотоциклу фирменный эксклюзивный вид и выделяйтесь в
+          потоке с качественной аэрографией.
         </p>
       </section>
       <AboutAirbrushing />
