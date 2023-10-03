@@ -13,7 +13,7 @@ function Footer() {
       </div>
       <ul className="footer__contacts">
         <li className="footer__phone">
-          <p className="footer__text">+7 (987) 100-11-22</p>
+          <p className="footer__text">8 (917) 150-81-71</p>
         </li>
         <li className="footer__email">
           <p className="footer__text">airbrushingStudio@gmail.com</p>

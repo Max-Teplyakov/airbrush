@@ -5,6 +5,7 @@ import { carText } from "../../../utils/data";
 import Carousel from "../../Carousel/Carousel";
 import { carouselCar } from "../../../utils/data";
 import AboutAirbrushing from "../../AboutAirbrushing/AboutAirbrushing";
+import DescriptionCar from "./DescriptionCar/DescriptionCar";
 
 function Car() {
   return (
@@ -20,6 +21,7 @@ function Car() {
       </section>
       <AboutAirbrushing />
       <Carousel carousel={carouselCar} />
+      <DescriptionCar />
       <Advantages dataText={carText} />
       <Price />
       <Application id="car-id" />

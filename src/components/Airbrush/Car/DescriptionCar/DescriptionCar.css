@@ -1,0 +1,47 @@
+.description-car {
+  max-width: 1440px;
+  margin: 0 auto 100px;
+  color: #fff;
+}
+
+.description-car__title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid #9f9fa0;
+  color: #fbd784;
+}
+
+.description-car__subtitle {
+  margin-bottom: 50px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.description-car__item {
+  margin: 0 auto 30px;
+  padding-left: 10px;
+  width: 1030px;
+  height: 35px;
+  background-color: #dfdfdf;
+  color: #545151;
+  border-radius: 15px;
+  font-size: 19px;
+}
+
+.description-car__list {
+  list-style-type: none;
+
+}
+
+.description-car__span {
+  color: #000000;
+  font-size: 21px;
+}
+
+.description-car__text {
+  font-size: 19px;
+  text-indent: 30px;
+}

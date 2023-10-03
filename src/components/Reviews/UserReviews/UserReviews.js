@@ -39,11 +39,11 @@ function UserReviews() {
           <img className="user-review__img" src={reviewsImg3} alt="" />
           <div className="user-review__block">
             <p className="user-review__text">
-              Заказывал индивидуальный дизайн для своего ноутбука. Мне воплотили
+              Заказывала индивидуальный дизайн для своего ноутбука. Мне воплотили
               очень креативную идею! Теперь ноут выглядит как настоящий
               эксклюзив. Порекомендую этих художников друзьям.
             </p>
-            <p className="user-review__name">Александр</p>
+            <p className="user-review__name">Александра</p>
           </div>
         </div>
         <div className="user-reviews__container">
