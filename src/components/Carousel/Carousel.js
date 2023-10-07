@@ -32,21 +32,21 @@ function Carousel({ carousel }) {
           <img
             src={carousel.img1}
             className="d-block w-100 carousel-img"
-            alt="..."
+            alt="картинка с аэрографией"
           />
         </div>
         <div className="carousel-item">
           <img
             src={carousel.img2}
             className="d-block w-100 carousel-img"
-            alt="..."
+            alt="картинка с аэрографией"
           />
         </div>
         <div className="carousel-item">
           <img
             src={carousel.img3}
             className="d-block w-100 carousel-img"
-            alt="..."
+            alt="картинка с аэрографией"
           />
         </div>
       </div>

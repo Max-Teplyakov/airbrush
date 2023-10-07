@@ -11,7 +11,7 @@ function Bike() {
     <main className="bike">
       <section className="bike-description">
         <h1 className="bike-description__title">
-          АЭРОГРАФИЯ НА ВЕЛОСИПЕДЕ В САМАРЕ
+          АЭРОГРАФИЯ НА ВЕЛОСИПЕДЕ В САНКТ-ПЕТЕРБУРГЕ
         </h1>
         <p className="bike-description__subtitle">
           Сделаем ваш велосипед неповторимым

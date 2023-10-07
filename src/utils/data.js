@@ -4,15 +4,15 @@ import icon3 from "../images/Advantages/car3.png";
 import icon4 from "../images/Advantages/car4.png";
 
 import car1 from "../images/carousel/car1.jpeg";
-import car2 from "../images/carousel/car2.jpeg";
+import car2 from "../images/carousel/car.jpg";
 import car3 from "../images/carousel/car3.jpeg";
 
 import helmet1 from "../images/carousel/helmet1.jpeg";
-import helmet2 from "../images/carousel/helmet2.jpeg";
+import helmet2 from "../images/carousel/helmet2.jpg";
 import helmet3 from "../images/carousel/helmet3.jpeg";
 
-import motorcycle1 from "../images/carousel/motorcycle1.jpeg";
-import motorcycle2 from "../images/carousel/motorcycle2.jpeg";
+import motorcycle1 from "../images/carousel/motorcycle1.jpg";
+import motorcycle2 from "../images/carousel/motorcycle2.jpg";
 import motorcycle3 from "../images/carousel/motorcycle3.jpeg";
 
 import bike1 from "../images/carousel/bike1.jpeg";

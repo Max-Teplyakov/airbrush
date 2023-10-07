@@ -1,7 +1,7 @@
 .about-airbrushing {
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 1024px;
+  max-width: 1440px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 }
 
 .about-airbrushing__line {
-  max-width: 1024px;
+  max-width: 1440px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 20px;
@@ -23,7 +23,7 @@
 
 .about-airbrushing__subtitle {
   margin-bottom: 5px;
-  max-width: 1024px;
+  max-width: 1440px;
   font-size: 19px;
   line-height: 35px;
   text-indent: 30px;

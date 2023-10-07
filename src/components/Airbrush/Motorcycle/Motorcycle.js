@@ -11,7 +11,7 @@ function Motorcycle() {
     <main className="motorcycle">
       <section className="motorcycle-description">
         <h1 className="motorcycle-description__title">
-          АЭРОГРАФИЯ НА МОТОЦИКЛАХ В САМАРЕ
+          АЭРОГРАФИЯ НА МОТОЦИКЛАХ В САНКТ-ПЕТЕРБУРГЕ
         </h1>
         <p className="motorcycle-description__subtitle">
           Придайте своему мотоциклу фирменный эксклюзивный вид и выделяйтесь в

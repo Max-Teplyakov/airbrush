@@ -12,7 +12,7 @@ function Car() {
     <main className="car">
       <section className="car-description">
         <h1 className="car-description__title">
-          АЭРОГРАФИЯ НА АВТОМОБИЛЕ В САМАРЕ
+          АЭРОГРАФИЯ НА АВТОМОБИЛЕ В САНКТ-ПЕТЕРБУРГЕ
         </h1>
         <p className="car-description__subtitle">
           Сделайте ваш автомобиль по-настоящему стильным и запоминающимся на

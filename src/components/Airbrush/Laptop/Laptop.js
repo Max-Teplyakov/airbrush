@@ -11,7 +11,7 @@ function Laptop() {
     <main className="laptop">
       <section className="laptop-description">
         <h1 className="laptop-description__title">
-          РИСУНОК НА НОУТБУКЕ В САМАРЕ
+          РИСУНОК НА НОУТБУКЕ В САНКТ-ПЕТЕРБУРГЕ
         </h1>
         <p className="laptop-description__subtitle">
           Закажите эксклюзивный дизайн для ноутбука в нашей студии

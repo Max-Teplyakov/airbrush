@@ -1,0 +1,44 @@
+.description-helmet {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto 100px;
+  color: #fff;
+}
+
+.description-helmet__title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid #9f9fa0;
+  color: #fbd784;
+}
+
+.description-helmet__subtitle {
+  margin-bottom: 50px;
+  font-size: 32px;
+  text-align: center;
+  color: #fbd784;
+}
+
+.description-helmet__text {
+  font-size: 19px;
+  text-indent: 30px;
+}
+
+@media screen and (max-width: 470px) {
+  .description-helmet__title {
+    font-size: 30px;
+  }
+
+  .description-helmet__subtitle {
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+
+  .description-helmet__text {
+    font-size: 14px;
+  }
+
+}

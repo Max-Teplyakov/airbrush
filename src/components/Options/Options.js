@@ -19,10 +19,10 @@ function Options() {
             вам!
           </p>
         </div>
-        <img src={options1} className="options__logo" alt="" />
+        <img src={options1} className="options__logo" alt="аэрография на машине" />
       </div>
       <div className="options__container options__container_revers">
-        <img src={options2} className="options__logo" alt="" />
+        <img src={options2} className="options__logo" alt="аэрография на мотоцикле" />
         <div className="options__container-text">
           <h3 className="options__title">Аэрография на Мотоцикле</h3>
           <p className="options__subtitle">
@@ -42,10 +42,10 @@ function Options() {
             неподражаемый образ.
           </p>
         </div>
-        <img src={options5} className="options__logo" alt="" />
+        <img src={options5} className="options__logo" alt="два мотошлема с рисунком" />
       </div>
       <div className="options__container options__container_revers">
-        <img src={options6} className="options__logo" alt="" />
+        <img src={options6} className="options__logo" alt="черно-оранжевый велосипед" />
         <div className="options__container-text">
           <h3 className="options__title">Аэрография на Велотранспорте</h3>
           <p className="options__subtitle">
@@ -64,10 +64,10 @@ function Options() {
             поздравлением? Граффити – ваш выбор!
           </p>
         </div>
-        <img src={options7} className="options__logo" alt="" />
+        <img src={options7} className="options__logo" alt="мужчина рисует графити на стене" />
       </div>
       <div className="options__container options__container_revers">
-        <img src={options8} className="options__logo" alt="" />
+        <img src={options8} className="options__logo" alt="разрисованная стена ярким стилем" />
         <div className="options__container-text">
           <h3 className="options__title">Роспись Фасадов Зданий</h3>
           <p className="options__subtitle">
@@ -87,7 +87,7 @@ function Options() {
             коворкинге.
           </p>
         </div>
-        <img src={options4} className="options__logo" alt="" />
+        <img src={options4} className="options__logo" alt="включенный ноутбук" />
       </div>
     </section>
   );

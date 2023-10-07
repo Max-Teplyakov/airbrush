@@ -1,7 +1,7 @@
 function DescriptionCar() {
   return (
     <section className="description-car">
-      <h2 className="description-car__title">Описание услуг</h2>
+      <h2 className="description-car__title">ОПИСАНИЕ УСЛУГ</h2>
       <h3 className="description-car__subtitle">
         Методом аэрографии можно декорировать различные элементы экстерьера
         авто:
@@ -34,7 +34,7 @@ function DescriptionCar() {
         </li>
         <li>
           <p className="description-car__item">
-            <span className="description-car__span">Диски колес</span> – для
+            <span className="description-car__span span-item">Диски колес</span> – для
             ярких абстрактных принтов, 3D-эффектов.
           </p>
         </li>

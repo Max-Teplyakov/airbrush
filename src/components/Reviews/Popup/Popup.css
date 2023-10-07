@@ -84,3 +84,59 @@
   font-size: 18px;
   border: none;
 }
+
+@media screen and (max-width: 550px) {
+  .popup__container {
+    max-width: 330px;
+  }
+
+  .popup-form__input {
+    width: 255px;
+  }
+
+  .popup__form-save-btn {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .popup__container {
+    max-width: 285px;
+  }
+
+  .popup__title {
+    font-size: 25px;
+  }
+
+  .popup-form__input {
+    width: 210px;
+  }
+
+  .popup__form-save-btn {
+    width: 215px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .popup__container {
+    max-width: 255px;
+  }
+
+  .popup__title {
+    font-size: 20px;
+  }
+
+  .popup-form__input {
+    width: 185px;
+  }
+
+  .popup__form-save-btn {
+    width: 185px;
+  }
+
+  .popup__close-btn {
+    top: -40px;
+    right: -27px;
+  }
+}
+

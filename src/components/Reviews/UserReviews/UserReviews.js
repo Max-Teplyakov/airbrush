@@ -14,7 +14,7 @@ function UserReviews() {
       <h2 className={`user-review__title ${titleClass}`}>Отзывы</h2>
       <div className="user-review__section">
         <div className="user-reviews__container">
-          <img className="user-review__img" src={reviewsImg1} alt="" />
+          <img className="user-review__img" src={reviewsImg1} alt="аэрография на машине" />
           <div className="user-review__block">
             <p className="user-review__text">
               Я давно мечтал сделать свою тачку по-настоящему стильной. Рисунок
@@ -25,7 +25,7 @@ function UserReviews() {
           </div>
         </div>
         <div className="user-reviews__container">
-          <img className="user-review__img" src={reviewsImg2} alt="" />
+          <img className="user-review__img" src={reviewsImg2} alt="шлем с аэрографией" />
           <div className="user-review__block">
             <p className="user-review__text">
               Я гонщик-любитель и решил расписать свой шлем, чтобы выделяться на
@@ -36,7 +36,7 @@ function UserReviews() {
           </div>
         </div>
         <div className="user-reviews__container">
-          <img className="user-review__img" src={reviewsImg3} alt="" />
+          <img className="user-review__img" src={reviewsImg3} alt="ноутбук с аэрографией" />
           <div className="user-review__block">
             <p className="user-review__text">
               Заказывала индивидуальный дизайн для своего ноутбука. Мне воплотили
@@ -47,7 +47,7 @@ function UserReviews() {
           </div>
         </div>
         <div className="user-reviews__container">
-          <img className="user-review__img" src={reviewsImg4} alt="" />
+          <img className="user-review__img" src={reviewsImg4} alt="мотоцикл с аэрографией" />
           <div className="user-review__block">
             <p className="user-review__text">
               Ребята расписали мой байк в стиле кастом, получилось очень круто!
