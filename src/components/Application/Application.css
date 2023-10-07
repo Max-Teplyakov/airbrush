@@ -59,6 +59,10 @@
   cursor: pointer;
 }
 
+.application-form__btn:hover {
+  background-color: rgb(47 159 193);
+}
+
 .application-form__container {
   width: 640px;
   margin-bottom: 10px;

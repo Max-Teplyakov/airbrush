@@ -16,7 +16,7 @@ function Main() {
       <Plan />
       <WhyUs />
       <UserReviews />
-      <Application />
+      <Application id={"main"} />
     </main>
   );
 }

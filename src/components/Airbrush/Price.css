@@ -69,6 +69,11 @@
   text-decoration: none;
 }
 
+.price__btn:hover {
+  background-color: rgb(47 159 193);
+  color: #fff;
+}
+
 @media screen and (max-width: 1060px) {
   .price__table {
     width: 700px;

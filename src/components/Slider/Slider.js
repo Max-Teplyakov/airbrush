@@ -6,7 +6,9 @@ function Slider() {
         <h2 className="slider__subtitle">
           Создадим шедевр на любой поверхности!
         </h2>
-        <button className="slider__btn">УЗНАТЬ ЦЕНЫ</button>
+        <a href="#main" className="slider__btn">
+        Оставить Заявку
+      </a>
       </div>
     </section>
   );
