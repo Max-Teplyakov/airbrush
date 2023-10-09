@@ -45,6 +45,7 @@
 .description-wall__text {
   font-size: 19px;
   text-indent: 30px;
+  text-align: justify;
 }
 
 @media  screen and (max-width: 460px) {

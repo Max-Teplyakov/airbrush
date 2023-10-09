@@ -6,7 +6,7 @@
 
 .options__container {
   margin: 50px auto 0;
-  gap: 50px;
+  gap: 25px;
   max-width: 1024px;
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,11 @@
 }
 
 .options__container-text {
-  padding: 15px;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 500px;
   height: 400px;
   font-weight: 500;
@@ -24,8 +28,11 @@
 }
 
 .options__title {
-  margin-top: 50px;
   color: #1f1d18;
+  text-align: center;
+}
+
+.options__subtitle {
   text-align: center;
 }
 

@@ -25,6 +25,7 @@
 .description-helmet__text {
   font-size: 19px;
   text-indent: 30px;
+  text-align: justify;
 }
 
 @media screen and (max-width: 470px) {

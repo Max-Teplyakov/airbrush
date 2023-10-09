@@ -31,6 +31,7 @@
   max-width: 600px;
   font-size: 18px;
   color: #aeaeae;
+  text-align: justify;
 }
 
 @media screen and (max-width: 940px) {
