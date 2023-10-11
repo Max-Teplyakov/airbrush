@@ -24,7 +24,7 @@ function Header() {
           <li className="header__contacts-link">
             <a
               className="header__contacts-phone"
-              href="tel:+79871578318"
+              href="tel:+79171508171"
               target="_blanck"
             >
               <img src={phone} className="header__contacts-icon" />
@@ -33,7 +33,7 @@ function Header() {
           <li className="header__contacts-link">
             <a
               className="header__contacts-telega"
-              href="https://t.me/max_tepl"
+              href="https://t.me/Igornaumov1985"
               target="_blanck"
             >
               <img src={icon} className="header__contacts-icon" />

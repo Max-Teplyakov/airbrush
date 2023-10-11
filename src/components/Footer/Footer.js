@@ -23,7 +23,7 @@ function Footer() {
         <li className="footer__tellegram">
           <a
             className="footer__links"
-            href="https://t.me/max_tepl"
+            href="https://t.me/Igornaumov1985"
             target="_blanck"
           >
             <img src={telegramm} className="footer__contacts-icon" />
@@ -33,7 +33,7 @@ function Footer() {
         <li className="footer__whatsapp">
           <a
             className="footer__links footer__links-whatsapp"
-            href="tel:+79871578318"
+            href="tel:+79171508171"
             target="_blanck"
           >
             <img src={whatsap} className="footer__contacts-icon" />

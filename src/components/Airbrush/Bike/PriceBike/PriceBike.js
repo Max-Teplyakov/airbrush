@@ -20,7 +20,7 @@ function PriceBike() {
         </tr>
         <tr className="price__table-row">
           <td>Разборка/сборка классического велосипеда</td>
-          <td>От 3.000 рублей</td>
+          <td>От 5.000 рублей</td>
         </tr>
         <tr className="price__table-row">
           <td>Покраска одной детали</td>
@@ -28,19 +28,19 @@ function PriceBike() {
         </tr>
         <tr className="price__table-row">
           <td>Покраска жесткой вилки</td>
-          <td>От 2.000 рублей</td>
-        </tr>
-        <tr className="price__table-row">
-          <td>Покраска амортизационной вилки</td>
           <td>От 3.000 рублей</td>
         </tr>
         <tr className="price__table-row">
+          <td>Покраска амортизационной вилки</td>
+          <td>От 4.000 рублей</td>
+        </tr>
+        <tr className="price__table-row">
           <td>Брендирование рамы</td>
-          <td>От 8.000 рублей</td>
+          <td>От 10.000 рублей</td>
         </tr>
         <tr className="price__table-row">
           <td>Аэрография на велосипеде</td>
-          <td>От 12.000 рублей</td>
+          <td>От 15.000 рублей</td>
         </tr>
       </table>
       <a href="#bike-id" className="price__btn">
